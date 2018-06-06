@@ -10,12 +10,23 @@ $(document).ready(function() {
   
       
     $.get(URL)
+     //If successful, do this with the data
     .then(function(response){
       console.log(response);
-    })
-  
-  //     //If successful, do this with the data
-    
+
+      //pull out data you want
+      //icon
+      var icon = response.weather[0].icon
+      
+      //city
+      var city = response.name;
+      
+      //temperature
+      //description
+      //humidity
+      //sunrise
+      //sunset
+
         
 
 
@@ -33,7 +44,7 @@ $(document).ready(function() {
   //       // $("#wind").html(wind);
   //     }
   
-      
+      })
       
   //  //end form submit
   
