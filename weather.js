@@ -22,10 +22,20 @@ $(document).ready(function() {
       var city = response.name;
       
       //temperature
+      var temperature = response.main.temp;
+      
       //description
+      var description = response.weather[0].description
+
+
       //humidity
+      var humidity = response.main.humidity;
+      
       //sunrise
+      var sunrise = new Date(response.sys.sunrise * 1000);
+
       //sunset
+      var sunset = new Date(response.sys.sunset * 1000);
 
         
 
