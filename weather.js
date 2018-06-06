@@ -4,12 +4,15 @@ $(document).ready(function() {
       event.preventDefault();
       //zipcode
       var zipCode = $("#input").val();
-      console.log(zipCode);
+      // console.log(zipCode);
       //Weather API-URL
-  //     var URL = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + ",us&APPID=865f583ab7e2e42228c051145a844358";
+      var URL = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + ",us&APPID=865f583ab7e2e42228c051145a844358";
   
       
-  //    $.get(URL)
+    $.get(URL)
+    .then(function(response){
+      console.log(response);
+    })
   
   //     //If successful, do this with the data
     
