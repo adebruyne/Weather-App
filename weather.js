@@ -6,7 +6,7 @@ $(document).ready(function() {
       var zipCode = $("#input").val();
       // console.log(zipCode);
       //Weather API-URL
-      var URL = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + ",us&APPID=865f583ab7e2e42228c051145a844358";
+      var URL = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode + "&units=imperial&APPID=865f583ab7e2e42228c051145a844358";
   
       
     $.get(URL)
@@ -37,7 +37,17 @@ $(document).ready(function() {
       //sunset
       var sunset = new Date(response.sys.sunset * 1000);
 
-        
+      //draw data to page
+      var $mainDiv = $(`<div />`).appendTo(`body`);
+      $mainDiv.attr(`class`, `container`);
+
+      var $content =$(`<p />`, {text: `The current temperature in ${city} is ${temperature} degrees(F) with ${description}. Humidity is at ${humidity} %.`});
+
+      $mainDiv.append($content);
+
+
+
+
 
 
   
