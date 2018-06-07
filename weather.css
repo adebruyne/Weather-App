@@ -1,11 +1,21 @@
-html, body {
-    width:100%;
-    height: 100%;
+html {
+    height: 100%
 }
 
-.container{
-    width: 100%;
-    height:100%;
-    border: 2px solid purple;
-    
+body{
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1464606203954-507eec7f5e52?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=749b4e864ae8703317efd7770ad02ff9&auto=format&fit=crop&w=2330&q=80);
+    color: white;
+    font-family: 'Josefin Slab', serif;
+}
+
+h1{
+    font-weight: 900;
+}
+
+.main {
+    margin: auto;
+    width: 
+
 }
