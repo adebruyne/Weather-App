@@ -40,13 +40,9 @@ $(document).ready(function() {
         
 
 
+  
 
 
-  //       // var logo = data.weather[0].icon;
-  //       // var city = data.name;
-  //       // var temperature = Math.round((data.main.temp) * 9/5 - 459.67) + "°";
-  //       // var description = data.weather[0].description;
-  //       // var wind = Math.round(data.wind.speed);
   //       // $("#logo").attr("src", "http://openweathermap.org/img/w/" + logo + ".png");
   //       // $("#city").html(city);
   //       // $("#temperature").html(temperature);
