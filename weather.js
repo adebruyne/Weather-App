@@ -41,24 +41,12 @@ $(document).ready(function() {
       var $mainDiv = $(`<div />`).appendTo(`body`);
       $mainDiv.attr(`class`, `container`);
 
-      var $content =$(`<p />`, {text: `The current temperature in ${city} is ${temperature} degrees(F) with ${description}. Humidity is at ${humidity} %.`});
+      var $content =$(`<p />`, {text: `The current temperature in ${city} is ${temperature} degrees(F) with ${description}. Humidity is at ${humidity}%.`});
 
       $mainDiv.append($content);
 
-
-
-
-
-
-  
-
-
-  //       // $("#logo").attr("src", "http://openweathermap.org/img/w/" + logo + ".png");
-  //       // $("#city").html(city);
-  //       // $("#temperature").html(temperature);
-  //       // $("#description").html(description);
-  //       // $("#wind").html(wind);
-  //     }
+      var $img =  $('<img />').appendTo($mainDiv);
+      $img.attr(`src`, "http://openweathermap.org/img/w/" + icon + ".png");
   
       })
       
