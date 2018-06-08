@@ -8,6 +8,12 @@ body{
     background-image: url(https://images.unsplash.com/photo-1464606203954-507eec7f5e52?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=749b4e864ae8703317efd7770ad02ff9&auto=format&fit=crop&w=2330&q=80);
     color: white;
     font-family: 'Josefin Slab', serif;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mainh1{
+    display: flex;
 }
 
 h1{
@@ -53,4 +59,16 @@ img {
     background-color: #d3d3d3b8;
     border-radius: 100px;
     border: 1px solid black;
+}
+
+
+ @media only screen and (min-width: 768px){
+    
+  .container{
+      margin-top: 4%;
+  }
+
+  img{
+      width: 15%;
+  }
 }
