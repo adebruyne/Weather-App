@@ -72,3 +72,19 @@ img {
       width: 15%;
   }
 }
+
+@media only screen and (min-width: 800px){
+    .main{
+        margin-top: 0;
+    }
+
+    .container {
+        margin-top: 0;
+        color: black;
+    }
+
+    img {
+        width: 10%;
+    }
+
+    }
