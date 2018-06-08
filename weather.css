@@ -16,6 +16,27 @@ h1{
 
 .main {
     margin: auto;
-    width: 
+    width: 20%;
+    padding: 10px;
 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    font-weight: 800;
+    font-size: 20px
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    margin: Auto;
+    padding: 0;
+    background-color: #d3d3d378;
+    border-radius: 100px;
 }
